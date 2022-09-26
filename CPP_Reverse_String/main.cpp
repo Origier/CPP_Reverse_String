@@ -24,7 +24,7 @@ string reverse_string(const string& string_in) {
 		*string_start = *string_end;
 		*string_end = temp;
 
-		// Incrementing and decrementing the pointers
+		// Incrementing the start pointer
 		string_start++;
 	}
 
